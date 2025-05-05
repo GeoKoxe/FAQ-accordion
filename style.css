@@ -1,0 +1,116 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("./images/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(255, 222, 227);
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.title-logo {
+  width: 10%;
+}
+.box-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px hsl(0, 0%, 0%, 0.1);
+  width: 90%;
+  max-width: 800px;
+  height: 90%;
+  max-height: 800px;
+  padding-top: 20px;
+  margin: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.faq-item:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: transparent;
+}
+.faq-answer p {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+.faq-title,
+.faq-question {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.faq-title {
+  margin-top: 20px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: left;
+  font-size: 30px;
+}
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 18px;
+}
+.faq-question {
+  width: 80vh;
+  font-size: 13px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
